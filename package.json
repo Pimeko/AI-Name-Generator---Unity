@@ -1,0 +1,7 @@
+{
+    "name": "com.pimeko.ai-name-generator",
+    "displayName": "AI Name Generator",
+    "version": "1.0.0",
+    "unity": "2019.1",
+    "description": "A massive list of random names/pseudos for AIs in your Unity games with a dead simple API!"
+}
