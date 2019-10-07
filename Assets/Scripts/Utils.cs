@@ -35,6 +35,9 @@ namespace AINamesGenerator
 
         public static List<string> GetRandomNames(int nbNames)
         {
+            if (nbNames > CurrentNamesList.names.Count)
+                throw new Exception("Asking for more random names than there actually are!");
+            
             NamesList copy = new NamesList();
             copy.names = new List<string>(CurrentNamesList.names);
 
